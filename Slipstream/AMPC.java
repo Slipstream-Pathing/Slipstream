@@ -5,8 +5,9 @@ import com.pedropathing.paths.PathChain;
 import com.pedropathing.geometry.Pose;
 import com.pedropathing.math.Vector;
 
-/** 
- * Created by Sahaj Patel - 23345 Sterling Stormers 
+/**
+ * @author Sahaj Patel - 23345 Sterling Stormers
+ * @version 4.0, 7/17/2026
  */
 
 @Configurable   //remove before release
