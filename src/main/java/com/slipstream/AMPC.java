@@ -48,13 +48,9 @@ public class AMPC {  // Version 1.4.0
     public double maxSpeedForward;
     public double maxSpeedStrafe;
     public double maxTurnRateRad;
-
     public double desiredVx = 0;
-
     public double desiredVy = 0;
-
     public double desiredOmega = 0;
-
     public double currentT = 0;
     public double lookaheadT = 0;
     public Pose lookaheadPose = new Pose(0, 0, 0);
