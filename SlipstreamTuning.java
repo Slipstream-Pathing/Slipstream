@@ -4,7 +4,6 @@ import static org.firstinspires.ftc.teamcode.SlipstreamTuning.panel;
 import static org.firstinspires.ftc.teamcode.SlipstreamTuning.setPowers;
 import static org.firstinspires.ftc.teamcode.SlipstreamTuning.stopMotors;
 import static org.firstinspires.ftc.teamcode.SlipstreamTuning.constants;
-import static org.firstinspires.ftc.teamcode.SlipstreamTuning.constants;
 import com.bylazar.configurables.annotations.Configurable;
 import com.bylazar.configurables.annotations.IgnoreConfigurable;
 import com.bylazar.telemetry.PanelsTelemetry;
