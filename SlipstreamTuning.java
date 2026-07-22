@@ -685,7 +685,7 @@ class OmegaPIDFTuner extends OpMode {
 
         double effort = constants.omegaKf * desired + constants.omegaKp * error + constants.omegaKi * integral + constants.omegaKd * derivative;
 
-        double norm = effort / constantsonselect.maxTurnRate;
+        double norm = effort / constants.maxTurnRate;
         norm = Math.max(-1.0, Math.min(1.0, norm));
         setPowers(-norm, norm, -norm, norm);
 
