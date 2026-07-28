@@ -52,6 +52,7 @@ public class Slipstream {
             logInitialized = true;
             autoStartNs = System.nanoTime();
         } catch (IOException e) {
+            android.util.Log.e("Slipstream", "Failed to initialize logging", e);
             logInitialized = false;
         }
     }
@@ -133,7 +134,7 @@ public class Slipstream {
                     ampc.sysIDRatioVx, ampc.sysIDRatioVy, ampc.sysIDRatioOmega));
             logWriter.flush();
         } catch (Exception e) {
-            // ignore
+            android.util.Log.e("Slipstream", "Logging error", e);
         }
     }
 
@@ -151,8 +152,8 @@ public class Slipstream {
             logWriter.flush();
             logWriter.close();
             logInitialized = false;
-        } catch (Exception e) {
-            // ignore
+        }  catch (Exception e) {
+            android.util.Log.e("Slipstream", "Finish error", e);
         }
     }
 }
