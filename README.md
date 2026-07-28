@@ -6,7 +6,7 @@ An Adaptive Model Predictive Controller for FTC.
 
 This project is in closed beta testing. Access is limited to invited teams.
 
-Beta testers: refer to the guides shared in the FTC SC Discord server.
+Beta testers: refer to the guides shared in the Discord server.
 
 ## Credits
 
