@@ -141,7 +141,8 @@ public class Slipstream {
     public void finish() {
         if (!logInitialized) return;
         try {
-            double totalTime = (System.nanoTime() - autoStartNs) / 1e9;
+            double totalTime = 0;
+            for (Double d : pathDurations) totalTime += d;
             logWriter.println("");
             logWriter.println("=== SUMMARY ===");
             logWriter.println("path,duration_s");
